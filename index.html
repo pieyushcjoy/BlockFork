@@ -3,178 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Innovative Solutions - BlockFork</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        /* Contact Section Specific Styles */
-        .contact-container {
-            display: flex;
-            min-height: 80vh;
-            margin-top: 40px;
-        }
-
-        .contact-info {
-            flex: 1;
-            background-color: #fff;
-            color: #000;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .contact-form {
-            flex: 2;
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .social-icons a {
-            margin-right: 10px;
-            color: #000;
-            text-decoration: none;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #333;
-            background-color: transparent;
-            color: #fff;
-            font-family: 'Inter', sans-serif;
-        }
-
-        /* Services Section Specific Styles */
-        .services-container {
-            max-width: 1200px;
-            margin: 40px auto;
-            padding: 40px 20px;
-        }
-
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .service-card {
-            background-color: rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 30px;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .service-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 10px 20px rgba(0, 255, 255, 0.1);
-        }
-
-        .service-icon {
-            width: 100px;
-            height: 100px;
-            margin: 0 auto 20px;
-            background-color: #00ffff;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .service-icon img {
-            width: 60%;
-            height: 60%;
-            object-fit: contain;
-        }
-
-        @media (max-width: 768px) {
-            .contact-container {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <title>BlockFork - Web3 Blockchain Development</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section -->
-    <div class="hero-container">
-        <div class="background-animation"></div>
-        <div class="hero-content">
-            <h1 class="animated" style="animation-delay: 0.2s;">Innovative Solutions</h1>
-            <p class="animated" style="animation-delay: 0.4s;">Cooking the future</p>
-            <a href="#services" class="cta-button animated" style="animation-delay: 0.6s;">Explore Services</a>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">BlockFork</a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#usp">Our USP</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
         </div>
-        <div class="animated-cube">
-            <img src="assets/placeholder-cube.png" alt="Innovative Cube" width="300" height="300">
-        </div>
-    </div>
+    </header>
 
-    <!-- Services Section -->
-    <div id="services" class="services-container">
-        <h2 class="animated">Engineering the Future of Decentralization</h2>
-        <div class="services-grid">
-            <div class="service-card animated" style="animation-delay: 0.2s;">
-                <div class="service-icon">
-                    <img src="assets/placeholder-blockchain.png" alt="Blockchain Icon">
-                </div>
-                <h3>Blockchain Consultation</h3>
-                <p>Exploring Your Web3 Vision</p>
-                <a href="#contact" class="book-now">Book Now</a>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>BlockFork: Forging the Future of Web3</h1>
+                <p>We are a cutting-edge blockchain development company specializing in decentralized applications, smart contracts, and innovative Web3 solutions.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
             </div>
-            <div class="service-card animated" style="animation-delay: 0.4s;">
-                <div class="service-icon">
-                    <img src="assets/placeholder-dapp.png" alt="DApp Icon">
-                </div>
-                <h3>DApp Development</h3>
-                <p>Empower Your DApp Ideas</p>
-                <a href="#contact" class="book-now">Book Now</a>
-            </div>
-            <div class="service-card animated" style="animation-delay: 0.6s;">
-                <div class="service-icon">
-                    <img src="assets/placeholder-smart-contract.png" alt="Smart Contract Icon">
-                </div>
-                <h3>Smart Contract Engineering</h3>
-                <p>Cooking Smart Contracts</p>
-                <a href="#contact" class="book-now">Book Now</a>
-            </div>
-        </div>
-    </div>
+            <div class="blockchain-bg"></div>
+        </section>
 
-    <!-- Contact Section -->
-    <div id="contact" class="contact-container">
-        <div class="contact-info animated" style="animation-delay: 0.2s;">
-            <h2>Get in Touch</h2>
-            <p>500 Terry Francine St.</p>
-            <p>San Francisco, CA 94158</p>
-            <p>Email: <a href="mailto:info@blockfork.io">info@blockfork.io</a></p>
-            <div class="social-icons">
-                <a href="#" aria-label="Discord">□ Discord</a>
-                <a href="#" aria-label="Twitter">□ Twitter</a>
-                <a href="#" aria-label="LinkedIn">□ LinkedIn</a>
+        <section id="about">
+            <div class="container">
+                <h2>About BlockFork</h2>
+                <p>BlockFork is at the forefront of the Web3 revolution. Our team of expert developers and blockchain enthusiasts are passionate about creating decentralized solutions that empower businesses and individuals alike. With a deep understanding of blockchain technology and its potential, we're committed to driving innovation and shaping the future of the digital landscape.</p>
             </div>
-        </div>
-        <div class="contact-form">
-            <form>
-                <div class="form-group animated" style="animation-delay: 0.4s;">
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName" required>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3>Smart Contract Development</h3>
+                        <p>We design and implement secure, efficient smart contracts for various blockchain platforms.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>DApp Development</h3>
+                        <p>Our team builds user-friendly decentralized applications that leverage the power of blockchain.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Blockchain Consulting</h3>
+                        <p>We provide expert advice on blockchain integration and strategy for businesses of all sizes.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Token Development</h3>
+                        <p>From concept to launch, we help create and deploy custom tokens for various use cases.</p>
+                    </div>
                 </div>
-                <div class="form-group animated" style="animation-delay: 0.6s;">
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName" required>
+            </div>
+        </section>
+
+        <section id="usp">
+            <div class="container">
+                <h2>Our Unique Selling Proposition</h2>
+                <div class="usp-grid">
+                    <div class="usp-item">
+                        <h3>Expertise</h3>
+                        <p>Our team consists of blockchain veterans with years of experience in Web3 development.</p>
+                    </div>
+                    <div class="usp-item">
+                        <h3>Innovation</h3>
+                        <p>We're always at the cutting edge, exploring new blockchain technologies and methodologies.</p>
+                    </div>
+                    <div class="usp-item">
+                        <h3>Security-First</h3>
+                        <p>We prioritize the security of our clients' assets and data in every project we undertake.</p>
+                    </div>
+                    <div class="usp-item">
+                        <h3>Customization</h3>
+                        <p>Every solution we develop is tailored to meet the unique needs of our clients.</p>
+                    </div>
                 </div>
-                <div class="form-group animated" style="animation-delay: 0.8s;">
-                    <label for="email">Email *</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group animated" style="animation-delay: 1s;">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit" class="animated" style="animation-delay: 1.2s;">Send</button>
-            </form>
-        </div>
-    </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
